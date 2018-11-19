@@ -1,0 +1,64 @@
+#This Week Practice
+
+
+  ##目的
+    *Sketch有効活用
+    *Bootstrap使いこなす
+    *Emmetクセづけ
+
+  ##到達点
+    *プロトタイプ→マークアップ→完成へのフローを爆速で。
+    *各Toolを使いこなす
+    *開発スピードUP
+
+  ##お助けリンク
+    *BootstrapDocs[https://getbootstrap.com/docs/4.1/getting-started/introduction/]
+    *SketchDocs[https://www.sketchapp.com/docs/]
+    *EmmetCheatSheat[https://docs.emmet.io/cheat-sheet/]
+
+
+
+#What's Web Design Like
+
+  ##Contents
+    1. Genres
+      *EDMとは
+        *Big Room
+        *Progressive House
+        *Bounce
+        *Twerk
+        *Hardstyle
+        *Groove House
+        *Future House
+        *Tropical House
+        *Dub Step
+    2. About
+
+  ##Develop
+    1. 要件定義
+      *EDMのジャンルとそれぞれの代表曲を見れるサイト
+      *課題として、EDMが2000s流行りだして今や音楽のひとつのジャンルだが、世間はEDMの定義やジャンルが曖昧なままで、周知されていない。
+      *解決策として、サイトでそれらをまとめて、結果的に自分の好きなジャンルを発見してほしい。
+    2. サイト設計
+      *TOPは共通で、TOP以降の要素は、
+        *default:Genres
+        *about:About
+        *contact:Contact... と、sectionを切り替える
+      *htmlは、
+        *index.html
+        *show.html
+      *genre_showで、代表曲を数個並べる
+    3. UI/UX設計
+      *topのbgは画像フルサイズ
+        *センターにlogoテキストを置く、できれば画像編集でテキストをDJの後ろ側に
+      *PCではなるべくアイコン使わず、Mobileではなるべくアイコン使う
+      *bg画像はパララックスで
+      *Genresごとにサムネ画像変える(色味も意識しながら)
+      *iPhone絵文字取り入れるとかわいい
+
+  参考:
+    *音楽ジャンル全てを地図にしたサイトEvery Noise at Once[http://everynoise.com/engenremap.html]
+    *ジャンル分けについてめちゃめちゃ詳しく書かれた知恵袋[https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12170535127]
+    *EDMの歴史[https://xn--z9j8fre1c4835d.com/club_music_differences.html]
+  これから:
+    *自分のプレイリストをサイトでシェアできたらいいね。
