@@ -22,17 +22,19 @@
 
   ##Contents
     1. Genres
-      *EDMとは
-        *Big Room
-        *Progressive House
-        *Bounce
-        *Twerk
-        *Hardstyle
-        *Groove House
-        *Future House
-        *Tropical House
-        *Dub Step
+      *Big Room
+      *Progressive House
+      *Bounce
+      *Twerk
+      *Hardstyle
+      *Groove House
+      *Future House
+      *Tropical House
+      *Dub Step
     2. About
+      *Genristはあなたの好きなEDMのジャンルを一緒に探してくれます。いつもミュージックを「EDM」という大きなジャンルで大雑把に探してませんか？ここでなら細かいサブジャンルで絞れて、ご所望のミュージックやアーティストをすぐに発見できます。
+      *Genrist helps you search for a genre of EDM. Are you always looking for music roughly in a large genre word "EDM"? You can finely focus on sub genres and quickly discover the music and artist you want.
+
 
   ##Develop
     1. 要件定義
