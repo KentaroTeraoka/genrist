@@ -20,6 +20,8 @@
 
 #What's Web Design Like
 
+  ##Name
+    *Genrist(ジャンリスト)
   ##Contents
     1. Genres
       *Big Room
@@ -31,10 +33,20 @@
       *Future House
       *Tropical House
       *Dub Step
-    2. About
+    2. Introduction
       *Genristはあなたの好きなEDMのジャンルを一緒に探してくれます。いつもミュージックを「EDM」という大きなジャンルで大雑把に探してませんか？ここでなら細かいサブジャンルで絞れて、ご所望のミュージックやアーティストをすぐに発見できます。
       *Genrist helps you search for a genre of EDM. Are you always looking for music roughly in a large genre word "EDM"? You can finely focus on sub genres and quickly discover the music and artist you want.
-
+    3. Contact
+      *好きなジャンルがない
+      *No favorite genre
+      *もっと載せて欲しいEDMのジャンルがあれば気軽にお問い合わせください！
+      *Please feel free to contact us if you have more genres of EDM you want to put on!
+    4. FOOTER
+      *logo
+      *公式SNS(仮)
+      *terms
+      *privacy policy
+      *© 2018 Kentaro Teraoka
 
   ##Develop
     1. 要件定義
@@ -53,6 +65,7 @@
     3. UI/UX設計
       *topのbgは画像フルサイズ
         *センターにlogoテキストを置く、できれば画像編集でテキストをDJの後ろ側に
+      *scrolldownのアイコンは点滅
       *PCではなるべくアイコン使わず、Mobileではなるべくアイコン使う
       *bg画像はパララックスで
       *Genresごとにサムネ画像変える(色味も意識しながら)
