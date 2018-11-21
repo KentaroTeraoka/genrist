@@ -1,1 +1,60 @@
-  
+/* reset_element */
+*{
+  color: #fff;
+}
+body{
+  background: #333;
+}
+a{
+  color:#fff;
+}
+ul{
+  list-style: none;
+}
+
+
+/* reset_class */
+.row{
+  margin:0;
+}
+.logo{
+  font-family: 'DIN Condensed',sans-serif;
+}
+.main-logo{
+  font-size: 20rem;
+  line-height: 70%;
+}
+.sub-logo{
+  font-size: 2.5rem;
+}
+
+
+/* header */
+.header{
+  position:fixed;
+  top:0;
+  width: 100%;
+  height: 120px;
+}
+
+
+/* top */
+.top{
+  width: 100%;
+  height: 100vh;
+  padding-top: 120px;
+  background:url('../img/bg_top.jpeg') center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.top-con{
+  margin-top:6rem;
+}
+.intro{
+  width: 80%;
+  font-size:1.5rem;
+}
+.intro a{
+  font-weight: bold;
+  text-decoration: underline;
+}
