@@ -74,43 +74,24 @@ ul{
   background-size: cover;
 }
 
-
-
-*, ::before, ::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.grid {
+.four-division{
   display: flex;
-  flex-wrap: wrap;
-  margin-left: calc((100% * 2 / (4 * 5 + 2 * 4)) * -1 - 20px);
+  justify-content: center;
 }
-.grid__item {
-  display: inline-block;
-  width: 20%;
-}
-.grid__gutter {
-  padding-left: calc((100% / 3) + 20px);
-}
-.grid__item:nth-child(9n+1) {
-  margin-left: calc((20% - 40px) / 2 + 20px);
-}
-.grid__item:nth-child(9n+5) .hexagon, .grid__item:nth-child(9n+6) .hexagon, .grid__item:nth-child(9n+7) .hexagon, .grid__item:nth-child(9n+8) .hexagon, .grid__item:nth-child(9n+9) .hexagon {
-  margin-top: calc(10px - 43.3012701892%);
-}
-.grid__item:nth-child(n+10) .hexagon {
-  margin-top: calc(10px - 43.3012701892%);
+.three-division{
+  display: flex;
+  justify-content: center;
 }
 .hexagon {
+  display: inline-block;
   position: relative;
-  width: 100%;
+  width: 25%;
   overflow: hidden;
   transform: rotate(90deg);
 }
 .hexagon::before {
   display: block;
-  padding-top: 86.602540378%;
+  padding-top: 86.602540378%;  /*  2√3 / 4 x 100  */
   content: '';
 }
 .hexagon__inner-1 {
@@ -138,3 +119,6 @@ ul{
   height: 100%;
   background: url('../img/genres_bigroom.png') center / cover no-repeat;
 }
+
+
+/* footer */
