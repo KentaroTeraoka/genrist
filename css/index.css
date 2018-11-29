@@ -37,6 +37,17 @@ ul{
 }
 .sub-logo{
   font-size: 2.5rem;
+  color:rgba(255,255,255,0.5);
+}
+.more-link{
+  display: block;
+  font-size:1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: right;
+}
+.more-link .bullet{
+  height:1.5rem;
 }
 
 
@@ -52,6 +63,9 @@ ul{
 .header-nav ul li{
   display: inline-block;
   padding:0 1rem;
+}
+.header-nav ul li a{
+  color:rgba(255,255,255,0.5);
 }
 
 
@@ -70,10 +84,6 @@ ul{
   width: 80%;
   font-size:1.5rem;
 }
-.intro a{
-  font-weight: bold;
-  text-decoration: underline;
-}
 
 
 /* genres */
@@ -83,6 +93,9 @@ ul{
 }
 .genres-box{
   max-width:1080px;
+}
+.hexagon__grid{
+  margin-bottom:5rem
 }
 .three-division{
   display: flex;
@@ -177,8 +190,14 @@ ul{
 /* footer */
 .footer{
   background: #111;
-  /* text-align: center; */
 }
 .sns li{
   display:inline-block;
+  padding: 0 5px;
+}
+.sns li a i{
+  color:#111;
+}
+.copyright{
+  color:rgba(255,255,255,0.3);
 }
